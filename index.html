@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Grades and Attendance</title>
+        <link rel="icon" href="https://ps.glenlake.k12.mi.us/favicon.ico">
+        <link rel="stylesheet" href="style.css">
+        <style>html, body {
+    width:100%;
+    height:100%;
+    padding:0;
+    margin:0;
+}
+
+.gameWrapper {
+    width:70%;
+    height:100%;
+    float:left;
+}
+
+.games {
+    width:100%;
+    height:20%;
+    background-color:red;
+    text-align: center;
+    font-size:60px;
+}
+
+.gameLink {
+  text-decoration: none;
+  color:black;
+}
+
+.widgetbotWrapper {
+  width:30%;
+  height:100%;
+  position: fixed;
+  right:0;
+
+}
+
+.halfBox {
+  float:left;
+  width: 50%;
+  height:20%;
+  background-color:red;
+  text-align: center;
+  font-size:60px;
+}
+</style>
+    </head>
+    <body>
+        <div class="widgetbotWrapper"><widgetbot
+  server="643631732205027358"
+  channel="643631732205027361"
+  width="100%"
+  height="100%"
+></widgetbot>
+<script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script></div>
+        <div class="gameWrapper">
+            <div class="games" style="background-color:blue;">Games</div>
+            <a href="games/cc/index.html" class="gameLink"><div class="games">cookie clicker</div></a>
+            <a href="games/hextris/index.html" class="gameLink"><div class="games">hextris</div></a>
+            <a href="games/clumsy-bird/index.html" class="gameLink"><div class="games">clumsy bird</div></a>
+            <a href="games/2048/index.html" class="gameLink"><div class="games">2048</div></a>
+            <div class="games" style="background-color:blue;">Proxies</div
+            <a href="proxies/php-proxy/index.html" class="gameLink"><div class="halfBox">php-proxy</div></a>
+            <a href="proxies/miniProxy/index.html" class="gameLink"><div class="halfBox">miniProxy</div></a>
+        </div>
+    </body>
+</html>
