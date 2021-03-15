@@ -1,0 +1,1 @@
+to add a game simply copy this folder somewhere else then add the swf file to the new folder and make sure its named "game.swf"
